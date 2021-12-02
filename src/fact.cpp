@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int fact(int num,int idx=1)
+long long fact(long long num,long long idx=1)
 {
 	if(num==1)
 	{
@@ -16,7 +16,7 @@ int fact(int num,int idx=1)
 
 int main(int n,char *args[])
 {
-	int a = stoi(args[1],NULL,10);
+	long long a = stoi(args[1],NULL,10);
 	cout << fact(a) << endl;
 	return 0;
 }
